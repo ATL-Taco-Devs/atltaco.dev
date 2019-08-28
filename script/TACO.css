@@ -1,0 +1,33 @@
+html, body{padding:0;margin:0;}
+*{box-sizing: border-box;}
+:root{
+  --TACO-BACKGROUND:#000099;
+}
+html{
+  min-height: 100vh;
+  background-color:#000099;
+  background: border-box 128px 128px,
+  url("../images/taco.svg") 8px 16px/128px 64px repeat,
+  url("../images/tree.svg") -28px 0/128px 64px repeat,
+  url("../images/peach.svg") -64px 0/128px 64px repeat,
+  var(--TACO-BACKGROUND);
+}
+a{
+  text-decoration: none;
+}
+.TACO-BODY{
+  min-height: 100vh;
+  background-color: rgba(0,0,0,0.35);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.TACO-MAIN{
+  background-color: var(--TACO-BACKGROUND);
+  border-radius: 8px;
+  padding: 20px;
+}
+.TACO{
+  height: 50vh;
+  width: 50vh;
+}
